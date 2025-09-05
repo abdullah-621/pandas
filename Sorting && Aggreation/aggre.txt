@@ -1,0 +1,6 @@
+1- sum()
+2- min()
+3- max()
+4- mean()
+5- std()
+6- count()
