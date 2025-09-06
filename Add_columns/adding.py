@@ -11,7 +11,9 @@ df = pd.DataFrame(data)
 print(df)
 
 df["Bonus (10%)"] = df["salary"] * 0.1
+
 df["Salary with Bonus (10%)"] = df['salary'] + (df["salary"] * 0.1)
+
 print(df)
 
 df.insert(0, "Employee ID", [10,20,30,40,50,60,70,80])
