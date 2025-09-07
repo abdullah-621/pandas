@@ -11,8 +11,8 @@ data2 = pd.DataFrame({
 })
 
 data3 = pd.merge(data1, data2, on= "ID", how="left")
-data3 = pd.merge(data1, data2, on= "ID", how="right")
-data3 = pd.merge(data1, data2, on= "ID", how="inner")
-data3 = pd.merge(data1, data2, on= "ID", how="outer")
+# data3 = pd.merge(data1, data2, on= "ID", how="right")
+# data3 = pd.merge(data1, data2, on= "ID", how="inner")
+# data3 = pd.merge(data1, data2, on= "ID", how="outer")
 
 print(data3)
